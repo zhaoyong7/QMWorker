@@ -26,7 +26,6 @@ $worker->onWorkerStart = function() use ($redis){
      * @var Redis $redis
      */
     $redis->incr("qmore",10) ;
-    echo "1\n" ;
 } ;
 
 /*结束时释放资源*/
