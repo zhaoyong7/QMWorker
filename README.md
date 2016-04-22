@@ -39,4 +39,9 @@ $worker->onWorkerStop = function() use ($redis){
 $worker->run() ;	
 ```
 
+##命令行
+```shell
+php startfile.php start | stop 
+```
+
 
